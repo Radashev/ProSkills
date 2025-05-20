@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# VSCode / JetBrains
+.idea/
+.vscode/
+.DS_Store
+*.log
