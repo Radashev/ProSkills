@@ -1,0 +1,16 @@
+.tabs {
+  width: 77rem;
+}
+
+@media (max-width: 80rem) {
+  .tabs {
+    width: calc(100vw - 100px);
+  }
+}
+
+:global(.ant-tabs-tab-btn) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
