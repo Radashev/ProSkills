@@ -1,9 +1,0 @@
-.tabs {
-  width: 77rem;
-}
-
-@media (max-width: 80rem) {
-  .tabs {
-    width: calc(100vw - 100px);
-  }
-}
